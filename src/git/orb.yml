@@ -37,7 +37,7 @@ commands:
             )
 
             # use git+ssh instead of https
-            git config --global url."ssh://git@github.com".insteadOf "https://github.com" || true
+            # git config --global url."ssh://git@github.com".insteadOf "https://github.com" || true
             git config --global gc.auto 0 || true
 
             # Don't download LFS stuff
